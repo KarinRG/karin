@@ -1,0 +1,68 @@
+body {
+    background-color: #8b2de2;
+    display: flex;
+    justify-content: center;
+   
+}
+.post{
+    height: 650px;
+    width: 400px;
+    background-color: #fff;
+    border-radius: 15px;
+    
+    
+    
+}
+header{
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 15px 10px 20px;
+    
+}
+.logo {
+    height: 40px;
+    width: 40px;
+    right: 10px;
+    position: relative;
+    top: -5px;
+ }
+ 
+ .headertext{
+    font-family: Roboto;
+    font-weight: bold;
+    
+   
+ }
+.navigation {
+    width: 80%;
+    text-align: right;
+    font-size: 30px;
+    border: 2px pink;
+
+}
+img {
+    margin:0px;
+    object-fit: cover;
+    object-position:top;
+    display: flex;
+
+}
+.icons {
+    font-size: 21px;
+    display: flex;
+}
+.reactions {
+width: 40%;
+padding-left:12px ;
+padding-top: 10px;
+}
+.foto {
+    width: 400px;
+    height: 400px;
+}
+.save{
+    right: -198px;
+    position:relative;
+    top: 10px;
+}
